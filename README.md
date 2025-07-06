@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Service Monitor Dashboard
 
-## Getting Started
+A modern and responsive Service Monitoring Dashboard built using **React**, **Zustand** for state management, **Tailwind CSS** for styling, and a **Mock API** to simulate backend responses.
 
-First, run the development server:
+![dashboard-screenshot](https://github.com/user-attachments/assets/9823387d-5a16-4bf3-aa73-7c8daf8f310c)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-  **Real-Time Monitoring** of service statuses
+-  **Auto-refreshing** with polling
+-  **Search and Filter** capabilities
+-  **Edit/Delete Services** from the dashboard
+-  Modular, clean codebase using modern React
+-  **Mock API** with artificial latency and simulated errors
+-  State management with **Zustand**
+-  Styled with **Tailwind CSS**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+##  Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Tech             | Description                            |
+|------------------|----------------------------------------|
+| **React**        | UI Library for building components     |
+| **Zustand**      | Lightweight state management           |
+| **Tailwind CSS** | Utility-first CSS framework            |
+| **Lucide React** | Icon library for beautiful SVG icons   |
+| **Mock API**     | Simulates backend behavior             |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
+##  Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+src/
+│
+├── components/ # UI components (Table, Modal, Header, etc.)
+├── store/ # Zustand store setup
+├── lib/ # Mock API logic
+├── app.js # Main app logic
+├── styles/ # Tailwind config and styles (if any)
+└── ...
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
