@@ -32,11 +32,18 @@ A modern and responsive Service Monitoring Dashboard built using **React**, **Zu
 ##  Project Structure
 
 src/
+
 │
+
 ├── components/ # UI components (Table, Modal, Header, etc.)
+
 ├── store/ # Zustand store setup
+
 ├── lib/ # Mock API logic
-├── app.js # Main app logic
+
+├── app/page.js # Main app logic
+
 ├── styles/ # Tailwind config and styles (if any)
+
 └── ...
 
